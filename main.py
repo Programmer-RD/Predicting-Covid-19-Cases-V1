@@ -39,7 +39,3 @@ def home():
         return redirect("/")
     else:
         return render_template("home.html")
-
-
-if __name__ == "__main__":
-    app.run(host="192.168.1.9", port=5050)
